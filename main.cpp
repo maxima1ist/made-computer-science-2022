@@ -1,13 +1,14 @@
 #include <iostream>
 
-using namespace std;
-
 int add(int a, int b) {
 	return a + b;
 }
 
 int main() {
-	cout << "Hello, World!";
+	std::cout << "Hello, World!\n";
+
+	int c = add(2, 3);
+	std::cout << "C = " << c << "\n";
 
 	return 0;
 }
