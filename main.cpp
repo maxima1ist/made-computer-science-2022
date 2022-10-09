@@ -10,5 +10,12 @@ int main() {
 	int c = add(2, 3);
 	std::cout << "C = " << c << "\n";
 
+	if (c == 5) {
+		std::cout << "Test passed!\n";
+	}
+	else {
+		std::cout << "Test failded!\n";
+	}
+
 	return 0;
 }
